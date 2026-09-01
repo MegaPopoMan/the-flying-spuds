@@ -6,10 +6,10 @@ import { Globe, Cpu, Users, TrendingUp } from "lucide-react";
 export const Route = createFileRoute("/vision")({
   head: () => ({
     meta: [
-      { title: "Vision — The Flying Sputs Hovercraft Project" },
-      { name: "description", content: "The long-term vision of The Flying Sputs hovercraft project and the impact we hope to create." },
-      { property: "og:title", content: "Vision — The Flying Sputs Hovercraft Project" },
-      { property: "og:description", content: "The long-term vision of The Flying Sputs hovercraft project and the impact we hope to create." },
+      { title: "Vision — The Flying Spuds Hovercraft Project" },
+      { name: "description", content: "The long-term vision of The Flying Spuds hovercraft project and the impact we hope to create." },
+      { property: "og:title", content: "Vision — The Flying Spuds Hovercraft Project" },
+      { property: "og:description", content: "The long-term vision of The Flying Spuds hovercraft project and the impact we hope to create." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/vision" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -30,7 +30,7 @@ function VisionPage() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center animation-slide-up">
           <p className="text-xl leading-relaxed text-muted-foreground">
-            We believe the best way to learn engineering is to build something that moves. AeroGlide is the first step toward a broader goal: a student lab where air-cushion vehicles are designed, raced, and improved year after year.
+            We believe the best way to learn engineering is to build something that moves. The Flying Spuds is the first step toward a broader goal: a student lab where air-cushion vehicles are designed, raced, and improved year after year.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ function VisionPage() {
           />
           <BentoCard
             title="Team growth"
-            description="AeroGlide becomes a recruiting project: a place where new students learn CAD, electronics, and testing on day one."
+            description="The Flying Spuds becomes a recruiting project: a place where new students learn CAD, electronics, and testing on day one."
             icon={<Users className="h-6 w-6 text-primary" />}
             variant="default"
           />
