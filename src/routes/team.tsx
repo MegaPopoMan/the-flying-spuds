@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/page-header";
 import { TeamCard } from "@/components/team-card";
-import { GitBranch, Cpu, PenTool, Wrench, Radio } from "lucide-react";
+import { GitBranch, Cpu, PenTool, Wrench, Radio, Shield } from "lucide-react";
 
 export const Route = createFileRoute("/team")({
   head: () => ({
