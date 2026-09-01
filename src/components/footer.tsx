@@ -21,7 +21,7 @@ export function Footer() {
                 <path d="M2 12l10 5 10-5" />
               </svg>
             </span>
-            <span className="font-heading text-lg font-bold">AeroGlide</span>
+            <span className="font-heading text-lg font-bold">The Flying Sputs</span>
           </div>
 
           <nav className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
@@ -43,7 +43,7 @@ export function Footer() {
           </nav>
 
           <p className="text-sm text-muted-foreground">
-            © {year} AeroGlide Project. All rights reserved.
+            © {year} The Flying Sputs Project. All rights reserved.
           </p>
         </div>
       </div>
