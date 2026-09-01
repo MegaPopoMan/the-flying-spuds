@@ -37,7 +37,7 @@ export function Nav() {
               <path d="M2 12l10 5 10-5" />
             </svg>
           </span>
-          <span className="font-heading">AeroGlide</span>
+          <span className="font-heading">The Flying Sputs</span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
