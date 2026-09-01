@@ -6,10 +6,10 @@ import { Target, Zap, Shield, Rocket } from "lucide-react";
 export const Route = createFileRoute("/mission")({
   head: () => ({
     meta: [
-      { title: "Mission — AeroGlide Hovercraft Project" },
-      { name: "description", content: "Why the AeroGlide team is building a hovercraft and what we aim to prove." },
-      { property: "og:title", content: "Mission — AeroGlide Hovercraft Project" },
-      { property: "og:description", content: "Why the AeroGlide team is building a hovercraft and what we aim to prove." },
+      { title: "Mission — The Flying Spuds Hovercraft Project" },
+      { name: "description", content: "Why the The Flying Spuds team is building a hovercraft and what we aim to prove." },
+      { property: "og:title", content: "Mission — The Flying Spuds Hovercraft Project" },
+      { property: "og:description", content: "Why the The Flying Spuds team is building a hovercraft and what we aim to prove." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/mission" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -34,7 +34,7 @@ function MissionPage() {
               Engineering that floats above the surface
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              The AeroGlide project exists to bring a hovercraft from concept to working prototype. We want to master the fundamentals of lift, thrust, stability, and control — then package them into a vehicle that can glide over land and water with minimal friction.
+              The The Flying Spuds project exists to bring a hovercraft from concept to working prototype. We want to master the fundamentals of lift, thrust, stability, and control — then package them into a vehicle that can glide over land and water with minimal friction.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
               Our mission is not just to finish a course assignment. It is to build a craft fast, stable, and reliable enough to win the university engineering race, and to show that a tight-knit student team can design, fabricate, test, and iterate on a real vehicle while documenting every decision so others can follow the same path.
