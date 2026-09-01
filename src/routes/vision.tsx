@@ -6,10 +6,10 @@ import { Globe, Cpu, Users, TrendingUp } from "lucide-react";
 export const Route = createFileRoute("/vision")({
   head: () => ({
     meta: [
-      { title: "Vision — AeroGlide Hovercraft Project" },
-      { name: "description", content: "The long-term vision of the AeroGlide hovercraft project and the impact we hope to create." },
-      { property: "og:title", content: "Vision — AeroGlide Hovercraft Project" },
-      { property: "og:description", content: "The long-term vision of the AeroGlide hovercraft project and the impact we hope to create." },
+      { title: "Vision — The Flying Sputs Hovercraft Project" },
+      { name: "description", content: "The long-term vision of The Flying Sputs hovercraft project and the impact we hope to create." },
+      { property: "og:title", content: "Vision — The Flying Sputs Hovercraft Project" },
+      { property: "og:description", content: "The long-term vision of The Flying Sputs hovercraft project and the impact we hope to create." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/vision" },
       { name: "twitter:card", content: "summary_large_image" },
