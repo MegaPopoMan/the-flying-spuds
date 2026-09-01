@@ -22,33 +22,45 @@ export const Route = createFileRoute("/team")({
 const team = [
   {
     name: "Alex Rivera",
-    role: "Project Lead",
-    bio: "Keeps the schedule, the budget, and the team morale in sync. Alex coordinates between fabrication, testing, and documentation so every milestone ships on time.",
+    role: "Project Engineer",
+    bio: "Owns the project plan, schedule, and risk register. Alex keeps the big picture in focus so design, build, and race-day prep all line up.",
     initials: "AR",
   },
   {
     name: "Sam Chen",
-    role: "Mechanical Engineer",
-    bio: "Designs the hull, skirt, and lift system in CAD. Sam turns napkin sketches into cut-ready files and makes sure the structure is light enough to lift but strong enough to survive a test run.",
+    role: "Lead Engineer",
+    bio: "Leads the technical architecture of the hovercraft, from system-level trade-offs to integration. Sam makes sure the lift, thrust, and control subsystems work as one vehicle.",
     initials: "SC",
   },
   {
     name: "Jordan Patel",
-    role: "Electrical Engineer",
-    bio: "Powers the craft: motors, ESCs, batteries, and wiring. Jordan builds the power distribution layout and ensures every amp is accounted for before the fans spin up.",
+    role: "Lead PR",
+    bio: "Tells the project story: social updates, sponsor outreach, demo-day pitches, and the final race presentation. Jordan makes the engineering visible to the outside world.",
     initials: "JP",
   },
   {
     name: "Morgan Lee",
-    role: "Software & Control",
-    bio: "Writes the control logic, calibrates the radio link, and adds telemetry so the team can see speed, battery, and lift pressure in real time during tests.",
+    role: "Test Engineer",
+    bio: "Coordinates the test program and defines the metrics that prove the craft is race-ready. Note: testing is done by the whole group together — Morgan keeps the plan and records consistent.",
     initials: "ML",
   },
   {
     name: "Taylor Brooks",
-    role: "Testing & Documentation",
-    bio: "Plans the test matrix, records results, and turns the chaos of build days into clear reports. Taylor makes sure nothing is learned once and then forgotten.",
+    role: "Design Engineer",
+    bio: "Shapes the hull, skirt, and frame in CAD, balancing weight, lift area, and manufacturability. Taylor turns concepts into cut-ready geometry the team can build.",
     initials: "TB",
+  },
+  {
+    name: "Riley Ortiz",
+    role: "Production Engineer",
+    bio: "Owns the build floor: material sourcing, fabrication workflow, jigs, and assembly order. Riley turns designs into a real, repeatable vehicle.",
+    initials: "RO",
+  },
+  {
+    name: "Casey Kim",
+    role: "Quality Engineer",
+    bio: "Defines acceptance criteria, checklists, and inspection points so nothing ships to race day unchecked. Note: quality assurance is a group effort — Casey makes sure the whole team follows the same standard.",
+    initials: "CK",
   },
 ];
 
@@ -57,7 +69,7 @@ function TeamPage() {
     <main>
       <PageHeader
         title="Meet the team"
-        description="Five students, one hovercraft, and a lot of late-night iterations."
+        description="Seven students, one hovercraft, and a shared drive to win the race."
       />
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -73,9 +85,11 @@ function TeamPage() {
               icon={
                 index === 0 ? <GitBranch className="h-5 w-5" /> :
                 index === 1 ? <Wrench className="h-5 w-5" /> :
-                index === 2 ? <Cpu className="h-5 w-5" /> :
-                index === 3 ? <Radio className="h-5 w-5" /> :
-                <PenTool className="h-5 w-5" />
+                index === 2 ? <Radio className="h-5 w-5" /> :
+                index === 3 ? <Cpu className="h-5 w-5" /> :
+                index === 4 ? <PenTool className="h-5 w-5" /> :
+                index === 5 ? <Wrench className="h-5 w-5" /> :
+                <Shield className="h-5 w-5" />
               }
             />
           ))}
