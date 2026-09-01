@@ -24,7 +24,7 @@ function MissionPage() {
     <main>
       <PageHeader
         title="Our mission"
-        description="Build a lightweight, efficient hovercraft that demonstrates the power of air-cushion technology while proving what a small student team can achieve in one semester."
+        description="Build a lightweight, efficient hovercraft that wins the university engineering race while demonstrating the power of air-cushion technology and proving what a small student team can achieve in one semester."
       />
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ function MissionPage() {
               The AeroGlide project exists to bring a hovercraft from concept to working prototype. We want to master the fundamentals of lift, thrust, stability, and control — then package them into a vehicle that can glide over land and water with minimal friction.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              Our mission is not just to finish a course assignment. It is to show that a tight-knit team of five students can design, fabricate, test, and iterate on a real vehicle, documenting every decision so others can follow the same path.
+              Our mission is not just to finish a course assignment. It is to build a craft fast, stable, and reliable enough to win the university engineering race, and to show that a tight-knit student team can design, fabricate, test, and iterate on a real vehicle while documenting every decision so others can follow the same path.
             </p>
           </div>
 
