@@ -6,10 +6,10 @@ import { GitBranch, Cpu, PenTool, Wrench, Radio, Shield } from "lucide-react";
 export const Route = createFileRoute("/team")({
   head: () => ({
     meta: [
-      { title: "Team — AeroGlide Hovercraft Project" },
-      { name: "description", content: "Meet the five people building the AeroGlide hovercraft." },
-      { property: "og:title", content: "Team — AeroGlide Hovercraft Project" },
-      { property: "og:description", content: "Meet the five people building the AeroGlide hovercraft." },
+      { title: "Team — The Flying Spuds Hovercraft Project" },
+      { name: "description", content: "Meet the five people building the The Flying Spuds hovercraft." },
+      { property: "og:title", content: "Team — The Flying Spuds Hovercraft Project" },
+      { property: "og:description", content: "Meet the five people building the The Flying Spuds hovercraft." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/team" },
       { name: "twitter:card", content: "summary_large_image" },
