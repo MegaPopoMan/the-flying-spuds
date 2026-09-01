@@ -6,9 +6,9 @@ import { ArrowRight, Users, Target, Sparkles, Cog, Wind } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AeroGlide — Student Hovercraft Project" },
+      { title: "The Flying Sputs — Student Hovercraft Project" },
       { name: "description", content: "A five-person university team building a lightweight hovercraft from concept to prototype." },
-      { property: "og:title", content: "AeroGlide — Student Hovercraft Project" },
+      { property: "og:title", content: "The Flying Sputs — Student Hovercraft Project" },
       { property: "og:description", content: "A five-person university team building a lightweight hovercraft from concept to prototype." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
