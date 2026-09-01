@@ -94,15 +94,6 @@ function TeamPage() {
             />
           ))}
         </div>
-
-        <div className="mt-16 rounded-2xl border border-border bg-secondary p-8 text-center md:p-12">
-          <h2 className="font-heading text-2xl font-bold text-secondary-foreground">
-            Want to join the effort?
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
-            We are always looking for students who love building things. Reach out to the team lead through your university engineering department to learn more about next semester’s plans.
-          </p>
-        </div>
       </section>
     </main>
   );
