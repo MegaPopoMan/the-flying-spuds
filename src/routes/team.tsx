@@ -21,46 +21,46 @@ export const Route = createFileRoute("/team")({
 
 const team = [
   {
-    name: "Alex Rivera",
+    name: "Cas Holkenborg",
     role: "Project Engineer",
-    bio: "Owns the project plan, schedule, and risk register. Alex keeps the big picture in focus so design, build, and race-day prep all line up.",
-    initials: "AR",
+    bio: "Owns the project plan, schedule, and risk register. Cas keeps the big picture in focus so design, build, and race-day prep all line up.",
+    initials: "CH",
   },
   {
-    name: "Sam Chen",
+    name: "Sepp van Loon",
     role: "Lead Engineer",
-    bio: "Leads the technical architecture of the hovercraft, from system-level trade-offs to integration. Sam makes sure the lift, thrust, and control subsystems work as one vehicle.",
-    initials: "SC",
+    bio: "Leads the technical architecture of the hovercraft, from system-level trade-offs to integration. Sepp makes sure the lift, thrust, and control subsystems work as one vehicle.",
+    initials: "SL",
   },
   {
-    name: "Jordan Patel",
+    name: "Caio Vink",
     role: "Lead PR",
-    bio: "Tells the project story: social updates, sponsor outreach, demo-day pitches, and the final race presentation. Jordan makes the engineering visible to the outside world.",
-    initials: "JP",
+    bio: "Tells the project story: social updates, sponsor outreach, demo-day pitches, and the final race presentation. Caio makes the engineering visible to the outside world.",
+    initials: "CV",
   },
   {
-    name: "Morgan Lee",
+    name: "...",
     role: "Test Engineer",
-    bio: "Coordinates the test program and defines the metrics that prove the craft is race-ready. Note: testing is done by the whole group together — Morgan keeps the plan and records consistent.",
-    initials: "ML",
+    bio: "Coordinates the test program and defines the metrics that prove the craft is race-ready. Note: testing is done by the whole group together — ... keeps the plan and records consistent.",
+    initials: "",
   },
   {
-    name: "Taylor Brooks",
+    name: "...",
     role: "Design Engineer",
-    bio: "Shapes the hull, skirt, and frame in CAD, balancing weight, lift area, and manufacturability. Taylor turns concepts into cut-ready geometry the team can build.",
-    initials: "TB",
+    bio: "Shapes the hull, skirt, and frame in CAD, balancing weight, lift area, and manufacturability. ... turns concepts into cut-ready geometry the team can build.",
+    initials: "...",
   },
   {
-    name: "Riley Ortiz",
+    name: "...",
     role: "Production Engineer",
-    bio: "Owns the build floor: material sourcing, fabrication workflow, jigs, and assembly order. Riley turns designs into a real, repeatable vehicle.",
-    initials: "RO",
+    bio: "Owns the build floor: material sourcing, fabrication workflow, jigs, and assembly order. ... turns designs into a real, repeatable vehicle.",
+    initials: "...",
   },
   {
-    name: "Casey Kim",
+    name: "...",
     role: "Quality Engineer",
-    bio: "Defines acceptance criteria, checklists, and inspection points so nothing ships to race day unchecked. Note: quality assurance is a group effort — Casey makes sure the whole team follows the same standard.",
-    initials: "CK",
+    bio: "Defines acceptance criteria, checklists, and inspection points so nothing ships to race day unchecked. Note: quality assurance is a group effort — ... makes sure the whole team follows the same standard.",
+    initials: "...",
   },
 ];
 
@@ -69,7 +69,7 @@ function TeamPage() {
     <main>
       <PageHeader
         title="Meet the team"
-        description="Seven students, one hovercraft, and a shared drive to win the race."
+        description="Five students, one hovercraft, and a shared drive to win the race."
       />
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
