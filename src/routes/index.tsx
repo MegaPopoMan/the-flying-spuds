@@ -154,7 +154,7 @@ function Index() {
             <Button asChild variant="secondary" size="lg" className="font-medium">
               <Link to="/process">See the process</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-primary-foreground/30 font-medium text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild variant="secondary" size="lg" className="font-medium">
               <Link to="/team">Meet the team</Link>
             </Button>
           </div>
