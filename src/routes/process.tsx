@@ -58,7 +58,7 @@ function ProcessPage() {
             title="Iterate & improve"
             description="The first craft will not be perfect. We use each test to refine the skirt seal, rebalance the weight, and optimize the control code. The process ends when the craft glides reliably across the target surface."
             icon={<RotateCcw className="h-6 w-6" />}
-            className="[&_div]:last:hidden"
+            last
           />
         </div>
 
