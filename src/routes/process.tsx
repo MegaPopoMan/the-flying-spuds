@@ -6,10 +6,10 @@ import { Search, PenTool, Hammer, TestTube, RotateCcw } from "lucide-react";
 export const Route = createFileRoute("/process")({
   head: () => ({
     meta: [
-      { title: "Process — AeroGlide Hovercraft Project" },
-      { name: "description", content: "How the AeroGlide team is researching, designing, prototyping, and testing its hovercraft." },
-      { property: "og:title", content: "Process — AeroGlide Hovercraft Project" },
-      { property: "og:description", content: "How the AeroGlide team is researching, designing, prototyping, and testing its hovercraft." },
+      { title: "Process — The Flying Sputs Hovercraft Project" },
+      { name: "description", content: "How the The Flying Sputs team is researching, designing, prototyping, and testing its hovercraft." },
+      { property: "og:title", content: "Process — The Flying Sputs Hovercraft Project" },
+      { property: "og:description", content: "How the The Flying Sputs team is researching, designing, prototyping, and testing its hovercraft." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/process" },
       { name: "twitter:card", content: "summary_large_image" },
