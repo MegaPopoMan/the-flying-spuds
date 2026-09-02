@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import logoAsset from "@/assets/logo.jpg.asset.json";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -24,19 +25,13 @@ export function Nav() {
           to="/"
           className="group flex items-center gap-2 text-lg font-bold tracking-tight text-foreground"
         >
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              className="h-5 w-5"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5z" />
-              <path d="M2 17l10 5 10-5" />
-              <path d="M2 12l10 5 10-5" />
-            </svg>
-          </span>
+          <img
+            src={logoAsset.url}
+            alt="The Flying Spuds logo"
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-full object-contain"
+          />
           <span className="font-heading">The Flying Spuds</span>
         </Link>
 
