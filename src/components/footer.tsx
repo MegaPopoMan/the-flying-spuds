@@ -26,9 +26,6 @@ export function Footer() {
             <Link to="/mission" className="hover:text-foreground">
               Mission
             </Link>
-            <Link to="/vision" className="hover:text-foreground">
-              Vision
-            </Link>
             <Link to="/team" className="hover:text-foreground">
               Team
             </Link>

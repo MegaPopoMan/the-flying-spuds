@@ -9,7 +9,6 @@ import logoAsset from "@/assets/logo.jpg.asset.json";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/mission", label: "Mission" },
-  { to: "/vision", label: "Vision" },
   { to: "/team", label: "Team" },
   { to: "/process", label: "Process" },
 ];
