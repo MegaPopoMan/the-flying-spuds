@@ -32,13 +32,14 @@ function ProcessPage() {
           <ProcessStep
             step={1}
             title="Research & requirements"
-            description="We started by studying how hovercrafts work: lift fans, thrust fans, skirts, and control surfaces. Then we wrote a requirements list covering weight, speed, surface types, safety, budget, and timeline."
+            description="We started by studying how hovercrafts work: lift fans, thrust fans, skirts, and control surfaces.
+We then looked at the requirements; it had to be as fast as possible."
             icon={<Search className="h-6 w-6" />}
           />
           <ProcessStep
             step={2}
             title="Conceptual design"
-            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared electric vs. combustion power, evaluated skirt designs, and chose a lightweight foam-core hull with direct-drive electric fans."
+            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared them and evaluated them according to a matrix (Picture 1).  chose the middle design."
             icon={<PenTool className="h-6 w-6" />}
           />
           <ProcessStep
