@@ -4,6 +4,9 @@ import { ProcessStep } from "@/components/process-step";
 import { Search, PenTool, Hammer, TestTube, RotateCcw } from "lucide-react";
 import designMatrixAsset from "@/assets/design-matrix.jpg.asset.json";
 import hullMarkingAsset from "@/assets/hull-marking.jpg.asset.json";
+import cadBracketAsset from "@/assets/cad-bracket.jpg.asset.json";
+import foamHullAsset from "@/assets/foam-hull.jpg.asset.json";
+
 
 export const Route = createFileRoute("/process")({
   head: () => ({
@@ -47,6 +50,9 @@ We then looked at the requirements; it had to be as fast as possible."
             icon={<PenTool className="h-6 w-6" />}
             image={designMatrixAsset.url}
             imageAlt="Concept sketches and CAD model of the hovercraft"
+            images={[
+              { src: cadBracketAsset.url, alt: "CAD model of a custom hovercraft bracket" },
+            ]}
           />
           <ProcessStep
             step={3}
@@ -55,6 +61,9 @@ We then looked at the requirements; it had to be as fast as possible."
             icon={<Hammer className="h-6 w-6" />}
             image={hullMarkingAsset.url}
             imageAlt="Hovercraft hull and skirt being fabricated in the workshop"
+            images={[
+              { src: foamHullAsset.url, alt: "Shaped foam hull piece ready for assembly" },
+            ]}
           />
           <ProcessStep
             step={4}

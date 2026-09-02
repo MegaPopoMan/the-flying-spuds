@@ -1,6 +1,11 @@
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
+interface ProcessImage {
+  src: string;
+  alt?: string;
+}
+
 interface ProcessStepProps {
   step: number;
   title: string;
@@ -10,6 +15,7 @@ interface ProcessStepProps {
   last?: boolean;
   image?: string;
   imageAlt?: string;
+  images?: ProcessImage[];
 }
 
 export function ProcessStep({
@@ -21,7 +27,13 @@ export function ProcessStep({
   last,
   image,
   imageAlt,
+  images,
 }: ProcessStepProps) {
+  const allImages: ProcessImage[] = [
+    ...(image ? [{ src: image, alt: imageAlt ?? title }] : []),
+    ...(images ?? []),
+  ];
+
   return (
     <div className={cn("relative flex gap-5 md:gap-8", className)}>
       <div className="flex flex-col items-center">
@@ -40,16 +52,26 @@ export function ProcessStep({
           <h3 className="font-heading text-xl font-semibold text-foreground">{title}</h3>
         </div>
         <p className="mt-2 text-base leading-relaxed text-muted-foreground">{description}</p>
-        {image && (
-          <div className="mt-4 overflow-hidden rounded-xl border border-border bg-muted">
-            <img
-              src={image}
-              alt={imageAlt ?? title}
-              loading="lazy"
-              width={1024}
-              height={640}
-              className="h-auto w-full object-cover"
-            />
+        {allImages.length > 0 && (
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            {allImages.map((img, idx) => (
+              <div
+                key={idx}
+                className={cn(
+                  "overflow-hidden rounded-xl border border-border bg-muted",
+                  allImages.length === 1 && "sm:col-span-2"
+                )}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt ?? title}
+                  loading="lazy"
+                  width={1024}
+                  height={640}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+            ))}
           </div>
         )}
       </div>
@@ -57,4 +79,3 @@ export function ProcessStep({
     </div>
   );
 }
-
