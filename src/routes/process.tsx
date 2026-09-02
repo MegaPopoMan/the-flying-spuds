@@ -61,6 +61,9 @@ We then looked at the requirements; it had to be as fast as possible."
             icon={<Hammer className="h-6 w-6" />}
             image={hullMarkingAsset.url}
             imageAlt="Hovercraft hull and skirt being fabricated in the workshop"
+            images={[
+              { src: foamHullAsset.url, alt: "Shaped foam hull piece ready for assembly" },
+            ]}
           />
           <ProcessStep
             step={4}
