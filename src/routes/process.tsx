@@ -90,10 +90,6 @@ We then looked at the requirements; it had to be as fast as possible."
               <p className="font-medium text-foreground">Electronics</p>
               <p className="text-sm text-muted-foreground">2 Brushless motors, 2 ESCs, 2 LiPo batteries, a Servo and a 2.4GHz Reely Receiver System.</p>
             </div>
-            <div className="space-y-1">
-              <p className="font-medium text-foreground">Project management</p>
-              <p className="text-sm text-muted-foreground">Shared Notion docs, Gantt charts, and weekly stand-ups.</p>
-            </div>
           </div>
         </div>
       </section>
