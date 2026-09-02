@@ -4,6 +4,9 @@ import { ProcessStep } from "@/components/process-step";
 import { Search, PenTool, Hammer, TestTube, RotateCcw } from "lucide-react";
 import designMatrixAsset from "@/assets/design-matrix.jpg.asset.json";
 import hullMarkingAsset from "@/assets/hull-marking.jpg.asset.json";
+import cadBracketAsset from "@/assets/cad-bracket.jpg.asset.json";
+import foamHullAsset from "@/assets/foam-hull.jpg.asset.json";
+
 
 export const Route = createFileRoute("/process")({
   head: () => ({
