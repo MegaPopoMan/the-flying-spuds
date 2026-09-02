@@ -35,7 +35,7 @@ function Index() {
                 Building a simple hovercraft
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-                We are a five-person student team designing and fabricating a lightweight hovercraft. Follow our mission, meet the team, and see how we turn airflow into lift.
+                We are a five-person student team designing and fabricating a lightweight hovercraft. Follow our mission, meet the team, and see how we created an engineering marvel.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button asChild size="lg" className="font-medium">
