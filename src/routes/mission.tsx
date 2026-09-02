@@ -24,7 +24,7 @@ function MissionPage() {
     <main>
       <PageHeader
         title="Our mission"
-        description="Build a lightweight, sikple hovercraft that wins the university engineering race while demonstrating Newton's third law of motion and proving what a small student team can achieve in one week."
+        description="Build a lightweight, simple hovercraft that wins the university engineering race while demonstrating Newton's third law of motion and proving what a small student team can achieve in one week."
       />
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
