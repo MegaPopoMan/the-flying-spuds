@@ -32,7 +32,7 @@ function Index() {
                 <span>University engineering project</span>
               </div>
               <h1 className="mt-6 font-heading text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
-                Building a hovercraft that glides above it all
+                Building a simple hovercraft
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
                 We are a five-person student team designing and fabricating a lightweight hovercraft. Follow our mission, meet the team, and see how we turn airflow into lift.
