@@ -84,11 +84,11 @@ We then looked at the requirements; it had to be as fast as possible."
             </div>
             <div className="space-y-1">
               <p className="font-medium text-foreground">Fabrication</p>
-              <p className="text-sm text-muted-foreground">Laser cutter, 3D printer, foam, and lightweight composites.</p>
+              <p className="text-sm text-muted-foreground">Styrofoam, Styrofoam cutter,a trashbag and skewers.</p>
             </div>
             <div className="space-y-1">
               <p className="font-medium text-foreground">Electronics</p>
-              <p className="text-sm text-muted-foreground">Brushless motors, ESCs, LiPo batteries, and Arduino-based telemetry.</p>
+              <p className="text-sm text-muted-foreground">2 Brushless motors, 2 ESCs, 2 LiPo batteries, a Servo and a 2.4GHz Reely Receiver System.</p>
             </div>
             <div className="space-y-1">
               <p className="font-medium text-foreground">Project management</p>
