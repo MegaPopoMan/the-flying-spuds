@@ -101,7 +101,7 @@ function Index() {
             Explore the project
           </h2>
           <p className="mt-3 text-lg text-muted-foreground">
-            Every page tells a different part of the AeroGlide story.
+            Every page tells a different part of The Flying Sputs story.
           </p>
         </div>
 
