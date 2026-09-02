@@ -7,9 +7,9 @@ export const Route = createFileRoute("/team")({
   head: () => ({
     meta: [
       { title: "Team — The Flying Spuds Hovercraft Project" },
-      { name: "description", content: "Meet the five people building the The Flying Spuds hovercraft." },
+      { name: "description", content: "Meet the five people building the Flying Spuds hovercraft." },
       { property: "og:title", content: "Team — The Flying Spuds Hovercraft Project" },
-      { property: "og:description", content: "Meet the five people building the The Flying Spuds hovercraft." },
+      { property: "og:description", content: "Meet the five people building the Flying Spuds hovercraft." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/team" },
       { name: "twitter:card", content: "summary_large_image" },
