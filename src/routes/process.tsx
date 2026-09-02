@@ -50,6 +50,9 @@ We then looked at the requirements; it had to be as fast as possible."
             icon={<PenTool className="h-6 w-6" />}
             image={designMatrixAsset.url}
             imageAlt="Concept sketches and CAD model of the hovercraft"
+            images={[
+              { src: cadBracketAsset.url, alt: "CAD model of a custom hovercraft bracket" },
+            ]}
           />
           <ProcessStep
             step={3}
