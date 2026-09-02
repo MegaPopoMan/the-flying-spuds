@@ -87,7 +87,7 @@ function Index() {
               <p className="mt-1 text-sm font-medium text-muted-foreground">Hovercraft prototype</p>
             </div>
             <div className="text-center animation-slide-up-delay-3">
-              <p className="font-heading text-4xl font-bold text-primary">4</p>
+              <p className="font-heading text-4xl font-bold text-primary">3</p>
               <p className="mt-1 text-sm font-medium text-muted-foreground">Core pages</p>
             </div>
           </div>
@@ -113,14 +113,6 @@ function Index() {
             icon={<Target className="h-6 w-6 text-primary" />}
             variant="default"
             size="wide"
-          />
-          <BentoCard
-            title="The Vision"
-            description="Where we see this technology going, and how future students can build on our work."
-            to="/vision"
-            icon={<Sparkles className="h-6 w-6 text-primary" />}
-            variant="primary"
-            size="default"
           />
           <BentoCard
             title="The Team"
