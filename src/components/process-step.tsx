@@ -8,9 +8,20 @@ interface ProcessStepProps {
   icon?: ReactNode;
   className?: string;
   last?: boolean;
+  image?: string;
+  imageAlt?: string;
 }
 
-export function ProcessStep({ step, title, description, icon, className, last }: ProcessStepProps) {
+export function ProcessStep({
+  step,
+  title,
+  description,
+  icon,
+  className,
+  last,
+  image,
+  imageAlt,
+}: ProcessStepProps) {
   return (
     <div className={cn("relative flex gap-5 md:gap-8", className)}>
       <div className="flex flex-col items-center">
@@ -29,7 +40,20 @@ export function ProcessStep({ step, title, description, icon, className, last }:
           <h3 className="font-heading text-xl font-semibold text-foreground">{title}</h3>
         </div>
         <p className="mt-2 text-base leading-relaxed text-muted-foreground">{description}</p>
+        {image && (
+          <div className="mt-4 overflow-hidden rounded-xl border border-border bg-muted">
+            <img
+              src={image}
+              alt={imageAlt ?? title}
+              loading="lazy"
+              width={1024}
+              height={640}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+        )}
       </div>
+
     </div>
   );
 }
