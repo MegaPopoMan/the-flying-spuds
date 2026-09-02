@@ -2,6 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/page-header";
 import { ProcessStep } from "@/components/process-step";
 import { Search, PenTool, Hammer, TestTube, RotateCcw } from "lucide-react";
+import designMatrixAsset from "@/assets/design-matrix.jpg.asset.json";
+import hullMarkingAsset from "@/assets/hull-marking.jpg.asset.json";
 
 export const Route = createFileRoute("/process")({
   head: () => ({
@@ -41,9 +43,9 @@ We then looked at the requirements; it had to be as fast as possible."
           <ProcessStep
             step={2}
             title="Conceptual design"
-            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared them and evaluated them according to a matrix (Picture 1). We chose the middle design."
+            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared them and evaluated them according to a matrix (Picture 1).  chose the middle design."
             icon={<PenTool className="h-6 w-6" />}
-            image="/process/step-2-design.jpg"
+            image={designMatrixAsset.url}
             imageAlt="Concept sketches and CAD model of the hovercraft"
           />
           <ProcessStep
@@ -51,7 +53,7 @@ We then looked at the requirements; it had to be as fast as possible."
             title="Prototyping & fabrication"
             description="CAD files became cut files. The hull was shaped, the skirt was sewn, and the motor mounts were printed. Every part was weighed, test-fitted, and adjusted before final assembly."
             icon={<Hammer className="h-6 w-6" />}
-            image="/process/step-3-build.jpg"
+            image={hullMarkingAsset.url}
             imageAlt="Hovercraft hull and skirt being fabricated in the workshop"
           />
           <ProcessStep

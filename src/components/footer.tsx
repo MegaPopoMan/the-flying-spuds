@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logoAsset from "@/assets/logo.jpg.asset.json";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -8,19 +9,13 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                className="h-5 w-5"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                <path d="M2 17l10 5 10-5" />
-                <path d="M2 12l10 5 10-5" />
-              </svg>
-            </span>
+            <img
+              src={logoAsset.url}
+              alt="The Flying Spuds logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-full object-contain"
+            />
             <span className="font-heading text-lg font-bold">The Flying Spuds</span>
           </div>
 
