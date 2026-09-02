@@ -50,7 +50,7 @@ function MissionPage() {
             />
             <BentoCard
               title="Accessible engineering"
-              description="We prioritize parts that are easy to source, tools that are common in university workshops, and designs that other students can replicate."
+              description="We are only allowed to use materials and tools given to us by the university, so everyone is on a level playingfield."
               icon={<Shield className="h-6 w-6 text-primary" />}
               variant="muted"
             />
