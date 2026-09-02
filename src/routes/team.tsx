@@ -53,13 +53,13 @@ const team = [
   {
     name: "Arie Huisert",
     role: "Production Engineer",
-    bio: "Owns the build floor: material sourcing, fabrication workflow, jigs, and assembly order. Arie turns designs into a real, repeatable vehicle.",
+    bio: "Owns the build floor: material sourcing, fabrication workflow, jigs, and assembly order. Arie turns designs into a reality.",
     initials: "AH",
   },
   {
     name: "Team Effort",
     role: "Quality Engineer",
-    bio: "Defines acceptance criteria, checklists, and inspection points so nothing ships to race day unchecked. Note: quality assurance is a group effort — We will hold eachother to great standards.",
+    bio: "Defines acceptance criteria, checklists, and inspection points so nothing ships to race day unchecked. Note: quality assurance is a group effort — We will hold eachother to acceptable standards.",
     initials: "TE",
   },
 ];
