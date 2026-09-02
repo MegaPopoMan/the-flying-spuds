@@ -41,7 +41,7 @@ const team = [
   {
     name: "Team Effort",
     role: "Test Engineer",
-    bio: "Coordinates the test program and defines the metrics that prove the craft is race-ready. Note: testing is done by the whole group together we will make sure the plan and records stay consistent.",
+    bio: "Coordinates the test program and defines the metrics that prove the craft is race-ready. Note: testing is done by the whole group, together we will make sure the plan and records stay consistent.",
     initials: "TE",
   },
   {
