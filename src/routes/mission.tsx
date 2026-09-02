@@ -56,7 +56,7 @@ function MissionPage() {
             />
             <BentoCard
               title="Iterative learning"
-              description="Every failed fan mount and every skewed test run teaches us something. We treat each iteration as a milestone, not a setback."
+              description="Every badly cut piece of styrofoam and every failed fan mount teaches us something. We treat each iteration as a milestone, not a setback."
               icon={<Target className="h-6 w-6 text-primary" />}
               variant="muted"
             />
