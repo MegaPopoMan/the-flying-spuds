@@ -23,19 +23,19 @@ const team = [
   {
     name: "Cas Holkenborg",
     role: "Project Engineer",
-    bio: "Owns the project plan, schedule, and risk register. Cas keeps the big picture in focus so design, build, and race-day prep all line up.",
+    bio: "The teams contact person. Cas is in charge of the team dynamics and making sure the meetings go according to plan.",
     initials: "CH",
   },
   {
     name: "Sepp van Loon",
     role: "Lead Engineer",
-    bio: "Leads the technical architecture of the hovercraft, from system-level trade-offs to integration. Sepp makes sure the lift, thrust, and control subsystems work as one vehicle.",
+    bio: "Leads the technical architecture of the hovercraft, from system-level trade-offs to integration. Sepp makes sure the Engineering team is working as intended, and everything gets done in time.",
     initials: "SL",
   },
   {
     name: "Caio Vink",
     role: "Lead PR",
-    bio: "Tells the project story: social updates, sponsor outreach, demo-day pitches, and the final race presentation. Caio makes the engineering visible to the outside world.",
+    bio: "Tells the project story: social updates, project documentation and maintaining the website, all in a professional manner. Caio makes the engineering visible to the outside world.",
     initials: "CV",
   },
   {
@@ -47,7 +47,7 @@ const team = [
   {
     name: "Enzo van Rooij",
     role: "Design Engineer",
-    bio: "Shapes the hull, skirt, and frame in CAD, balancing weight, lift area, and manufacturability. Enzo turns concepts into cut-ready geometry the team can build.",
+    bio: "Shapes the hovercraft: takes in all the possible design options, picks the most viable ones, then proceeds to make it into a usable plan. Enzo turns concepts into cut-ready geometry the team can build.",
     initials: "ER",
   },
   {
