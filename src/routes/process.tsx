@@ -7,9 +7,9 @@ export const Route = createFileRoute("/process")({
   head: () => ({
     meta: [
       { title: "Process — The Flying Spuds Hovercraft Project" },
-      { name: "description", content: "How the The Flying Spuds team is researching, designing, prototyping, and testing its hovercraft." },
+      { name: "description", content: "How the Flying Spuds team is researching, designing, prototyping, and testing its hovercraft." },
       { property: "og:title", content: "Process — The Flying Spuds Hovercraft Project" },
-      { property: "og:description", content: "How the The Flying Spuds team is researching, designing, prototyping, and testing its hovercraft." },
+      { property: "og:description", content: "How the Flying Spuds team is researching, designing, prototyping, and testing its hovercraft." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/process" },
       { name: "twitter:card", content: "summary_large_image" },
