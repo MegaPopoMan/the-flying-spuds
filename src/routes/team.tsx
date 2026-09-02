@@ -68,7 +68,7 @@ function TeamPage() {
   return (
     <main>
       <PageHeader
-        title="Meet the team"
+        title="Meet team 8"
         description="Five students, one hovercraft, and a shared drive to win the race."
       />
 
