@@ -79,8 +79,8 @@ We then looked at the requirements; it had to be as fast as possible."
           <h3 className="font-heading text-xl font-semibold text-foreground">Tools we use</h3>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             <div className="space-y-1">
-              <p className="font-medium text-foreground">CAD & simulation</p>
-              <p className="text-sm text-muted-foreground">Fusion 360 and basic CFD for airflow estimates.</p>
+              <p className="font-medium text-foreground">Design and Drawing</p>
+              <p className="text-sm text-muted-foreground">Solidworks and ???.</p>
             </div>
             <div className="space-y-1">
               <p className="font-medium text-foreground">Fabrication</p>
