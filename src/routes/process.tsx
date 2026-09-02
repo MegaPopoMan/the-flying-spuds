@@ -39,7 +39,7 @@ We then looked at the requirements; it had to be as fast as possible."
           <ProcessStep
             step={2}
             title="Conceptual design"
-            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared them and evaluated them according to a matrix (Picture 1).  chose the middle design."
+            description="With requirements in place, we sketched multiple hull shapes and fan layouts. We compared them and evaluated them according to a matrix (Picture 1). We chose the middle design."
             icon={<PenTool className="h-6 w-6" />}
           />
           <ProcessStep
