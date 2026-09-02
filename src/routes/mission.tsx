@@ -34,7 +34,7 @@ function MissionPage() {
               Engineering that floats above the surface
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              The The Flying Spuds project exists to bring a hovercraft from concept to working prototype. We want to master the fundamentals of lift, thrust, stability, and control — then package them into a vehicle that can glide over land and water with minimal friction.
+              The Flying Spuds project exists to bring a hovercraft from concept to working prototype. We want to master the fundamentals of lift, thrust, stability, and control — then package them into a vehicle that can glide over land and water with minimal friction.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
               Our mission is not just to finish a course assignment. It is to build a craft fast, stable, and reliable enough to win the university engineering race, and to show that a tight-knit student team can design, fabricate, test, and iterate on a real vehicle while documenting every decision so others can follow the same path.

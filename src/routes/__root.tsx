@@ -79,14 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AeroGlide — Student Hovercraft Project" },
+      { title: "The Flying Spuds — Student Hovercraft Project" },
       { name: "description", content: "A five-person university team building a lightweight hovercraft from concept to prototype." },
-      { name: "author", content: "AeroGlide Team" },
-      { property: "og:title", content: "AeroGlide — Student Hovercraft Project" },
+      { name: "author", content: "The Flying Spuds Team" },
+      { property: "og:title", content: "The Flying Spuds — Student Hovercraft Project" },
       { property: "og:description", content: "A five-person university team building a lightweight hovercraft from concept to prototype." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@AeroGlide" },
+      { name: "twitter:site", content: "@TheFlyingSpuds" },
     ],
     links: [
       {
