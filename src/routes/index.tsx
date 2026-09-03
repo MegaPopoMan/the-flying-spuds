@@ -54,11 +54,10 @@ function Index() {
             <div className="animation-slide-up-delay-1 relative">
               <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-secondary">
                 <img
-                  src="hovercraftFinal.url"
-                  alt="A lightweight hovercraft prototype skimming above a smooth surface"
-                  className="h-full w-full object-cover"
-                />
-              </div>
+  src={hovercraftFinal.url}
+  alt="A lightweight hovercraft prototype skimming above a smooth surface"
+  className="h-full w-full object-cover"
+/>
               <div className="absolute -bottom-6 -left-6 hidden rounded-xl border border-border bg-card p-4 shadow-lg lg:block">
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
