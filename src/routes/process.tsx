@@ -87,7 +87,7 @@ We then looked at the requirements; it had to be as fast as possible."
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             <div className="space-y-1">
               <p className="font-medium text-foreground">Design and Drawing</p>
-              <p className="text-sm text-muted-foreground">Solidworks and ???.</p>
+              <p className="text-sm text-muted-foreground">Solidworks and hand drawing.</p>
             </div>
             <div className="space-y-1">
               <p className="font-medium text-foreground">Fabrication</p>
