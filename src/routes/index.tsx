@@ -54,7 +54,7 @@ function Index() {
             <div className="animation-slide-up-delay-1 relative">
               <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-secondary">
                 <img
-                  src="/hovercraft-hero.jpg"
+                  src="hovercraftFinal.url"
                   alt="A lightweight hovercraft prototype skimming above a smooth surface"
                   className="h-full w-full object-cover"
                 />
