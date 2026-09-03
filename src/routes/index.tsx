@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { BentoCard } from "@/components/bento-card";
 import { Button } from "@/components/ui/button";
+import hovercraftFinal from "@/assets/hovercraft-final.jpg.asset.json";
 import { ArrowRight, Users, Target, Sparkles, Cog, Wind } from "lucide-react";
 
 export const Route = createFileRoute("/")({
