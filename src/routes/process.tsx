@@ -40,8 +40,6 @@ function ProcessPage() {
             description="We started by studying how hovercrafts work: lift fans, thrust fans, skirts, and control surfaces.
 We then looked at the requirements; it had to be as fast as possible."
             icon={<Search className="h-6 w-6" />}
-            image="/process/step-1-research.jpg"
-            imageAlt="Research notes and hovercraft reference drawings"
           />
           <ProcessStep
             step={2}
