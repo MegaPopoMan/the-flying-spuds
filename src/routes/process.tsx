@@ -6,6 +6,7 @@ import designMatrixAsset from "@/assets/design-matrix.jpg.asset.json";
 import hullMarkingAsset from "@/assets/hull-marking.jpg.asset.json";
 import cadBracketAsset from "@/assets/cad-bracket.jpg.asset.json";
 import foamHullAsset from "@/assets/foam-hull.jpg.asset.json";
+import hovercraftTestingAsset from "@/assets/hovercraft-testing.jpg.asset.json";
 
 
 export const Route = createFileRoute("/process")({
@@ -68,8 +69,8 @@ We then looked at the requirements; it had to be as fast as possible."
             title="Testing & validation"
             description="Static tests measured lift pressure and thrust. Dynamic runs checked steering, stability, and battery drain. We logged every number and used it to update the next iteration."
             icon={<TestTube className="h-6 w-6" />}
-            image="/process/step-4-testing.jpg"
-            imageAlt="Hovercraft prototype under test with data logging equipment"
+            image={hovercraftTestingAsset.url}
+            imageAlt="Hovercraft prototype navigating a cone course during testing"
           />
           <ProcessStep
             step={5}
