@@ -7,6 +7,8 @@ import hullMarkingAsset from "@/assets/hull-marking.jpg.asset.json";
 import cadBracketAsset from "@/assets/cad-bracket.jpg.asset.json";
 import foamHullAsset from "@/assets/foam-hull.jpg.asset.json";
 import hovercraftTestingAsset from "@/assets/hovercraft-testing.jpg.asset.json";
+import raceArenaAsset from "@/assets/race-arena.jpg.asset.json";
+import raceRunAsset from "@/assets/race-run.jpg.asset.json";
 
 
 export const Route = createFileRoute("/process")({
