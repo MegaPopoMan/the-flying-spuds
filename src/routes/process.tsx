@@ -77,8 +77,11 @@ We then looked at the requirements; it had to be as fast as possible."
             title="Iterate & improve"
             description="The first craft will not be perfect. We use each test to refine the skirt seal, rebalance the weight, and optimize the control code. The process ends when the craft glides reliably across the target surface."
             icon={<RotateCcw className="h-6 w-6" />}
-            image="/process/step-5-iterate.jpg"
-            imageAlt="Skirt adjustments during an iteration cycle"
+            image={raceArenaAsset.url}
+            imageAlt="Hovercrafts racing on the indoor cone course"
+            images={[
+              { src: raceRunAsset.url, alt: "Our hovercraft mid-run during the race" },
+            ]}
             last
           />
         </div>
